@@ -1,33 +1,4 @@
-/* 
-.detail-text{
-     margin-top: 30rem; 
-     margin-left: 65rem;
-    width: 200px; 
-    
-}
-.Datail-image{
-    height: px;
-    width: 500px;
-    margin-left: -10rem;
-    margin-top: -30rem;
-}
-.detai-tital{
-    float: right;
-    margin-top: -30rem;
-    font-size: 30px;
-}.detal-dec{
-     float: right;
-    margin-top: -20rem;
-    font-size: 25px;
-}
-.detaim-data{
-    display: flex;
-    flex-direction: column;
-    
-    margin-top: 15px;
-    margin-left: 600px;
-    margin-top: -20rem;
-} */
+
 
 .Details-page{
     display: flex;
