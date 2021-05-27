@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { getAllProduct } from "../state/selectors/ProductSelector";
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
 import "./home.css";
 import { ProductList } from "./ProductList";
 export const Home = ()=>{
@@ -15,8 +15,9 @@ export const Home = ()=>{
    
     return(
         <div>
-            <header className="heading">E-commerce-app: {productsQty}
-            < ShoppingCartIcon className="icon-styl"/>
+            <header className="heading-2">E-commerce</header>
+            <header className="heading">Cart items: {productsQty}
+            
             </header>
             
          {products && products.map((items)=>(

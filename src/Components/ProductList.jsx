@@ -21,7 +21,7 @@ export const ProductList=({currentitem}) =>{
   <Card.Body className="content">
     <Card.Title>{currentitem.name}</Card.Title>
         <p>
-            <small>&#8377;</small>
+            <large>&#8377;</large>
             <strong>{currentitem.price}</strong>
         </p>
         <Button className="buttan-style" variant="primary" onClick={handleAddToCart}>Add to Cart</Button>

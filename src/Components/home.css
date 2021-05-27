@@ -2,7 +2,7 @@
     background-color: black;
     height: 50px;
     color: white;
-    text-align: center;
+    text-align: right;
     font-size: 27px;
 }
 .icon-styl{
@@ -10,4 +10,11 @@
     transform: scale(1.7);
     margin-top: 1rem;
     margin-right: 1rem;
+}
+.heading-2{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 27px;
 }

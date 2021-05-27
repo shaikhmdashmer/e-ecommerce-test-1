@@ -34,7 +34,8 @@ export const ProductDetails = () => {
                              {item.name} </h2>
                          <p className="detaim-data">{item.desc }</p>
                       
-                                 <div className="Details-buttons" >
+                            <div className="Details-buttons" >
+                                
                                      <Button variant="dark" className="detail-text" onClick={handleAddToCart}>Add to Cart</Button><p></p>
                         <Button variant="dark " onClick={e=>history.push('/')}> Back TO Home</Button>
  
