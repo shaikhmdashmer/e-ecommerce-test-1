@@ -1,0 +1,1 @@
+export const getAllProduct = (state)=> state.ProductReducer.products

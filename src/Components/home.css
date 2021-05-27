@@ -1,0 +1,13 @@
+.heading{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+.icon-styl{
+    float: right;
+    transform: scale(1.7);
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
